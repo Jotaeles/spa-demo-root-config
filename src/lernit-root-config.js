@@ -15,7 +15,7 @@ registerApplication({
 registerApplication({
   name: "@lernit/spa-demo-about",
   app: () => System.import("@lernit/spa-demo-about"),
-  activeWhen: ["/about"],
+  activeWhen: ["/"],
 });
 
 start({
